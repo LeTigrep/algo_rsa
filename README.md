@@ -13,9 +13,12 @@ déchiffrement des messages (il n'y aura que la partie code visible dans ce dép
 
 ## Compilation
 
-`rsa.py`
-
-`rsa_bonus.py`
+```bash 
+rsa.py
+```
+```bash
+rsa_bonus.py
+```
 
 ## Nos réalisations
 
