@@ -23,7 +23,7 @@ rsa_bonus.py
 ## Nos réalisations
 
 Nous avons développé un code Python
-pour encrypter un message avec une clé RSA. Les trois fonctions principales incluent la génération et l’exportation d’une paire de clés RSA, le chiffrement du
+pour chiffrer un message avec une clé RSA. Les trois fonctions principales incluent la génération et l’exportation d’une paire de clés RSA, le chiffrement du
 message avec la clé publique, et le déchiffrement du message avec la clé privée.
 Ce code a passé avec succès des tests rigoureux, démontrant son efficacité et sa
 fiabilité dans la génération de clés, le chiffrement et le déchiffrement des messages,
@@ -31,7 +31,7 @@ et confirmant ainsi sa conformité aux exigences du projet.
 
 En bonus, nous avons ajouté une troisième partie à notre projet.
 Ce code prend en entrée les entiers p, q, et e, génère
-les clés privée et publique, et propose une fonction d’encryption. Cette fonction
+les clés privée et publique. Cette fonction
 calcule le ciphertext en élevant le message à la puissance de e et en prenant le
 modulo n. De plus, une fonction de déchiffrement a été implémentée pour déchiffrer les messages encryptés. Cette extension renforce la polyvalence du projet en
 offrant la possibilité de générer des clés personnalisées et de chiffrer/déchiffrer des
